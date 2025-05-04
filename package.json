@@ -1,0 +1,39 @@
+{
+  "name": "proyecto-ts-rest-api-express",
+  "version": "1.0.0",
+  "description": "node.js, Typescript, Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "lint": "ts-standard",
+    "start": "node build/index.js",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan-A-G03/Proyecto-Ts-REST-API-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juan-A-G03/Proyecto-Ts-REST-API-Express/issues"
+  },
+  "homepage": "https://github.com/Juan-A-G03/Proyecto-Ts-REST-API-Express#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "ts-node-dev": "^2.0.0",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [".node_modules/ts-standard/eslintrc.json"]
+  }
+}
